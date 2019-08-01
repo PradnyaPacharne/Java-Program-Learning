@@ -1,6 +1,6 @@
-package com.javaBasics;
+package com.javaMainMethod;
 
-public class Practice {
+public class HelloWorld {
 	public static void main(String[] args) {
 		System.out.println("Hello World !!");
 	}
