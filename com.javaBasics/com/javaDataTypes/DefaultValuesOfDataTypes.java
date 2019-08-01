@@ -2,7 +2,7 @@ package com.javaDataTypes;
 
 public class DefaultValuesOfDataTypes {
 
-	byte bByte;
+	byte byByte;
 	short shShort;
 	int iInt;
 	long lLong;
@@ -13,7 +13,7 @@ public class DefaultValuesOfDataTypes {
 	boolean bBoolean;
 
 	void display() {
-		System.out.println("Default value of byte: " + bByte);
+		System.out.println("Default value of byte: " + byByte);
 		System.out.println("Default value of short: " + shShort);
 		System.out.println("Default value of int: " + iInt);
 		System.out.println("Default value of long: " + lLong);
