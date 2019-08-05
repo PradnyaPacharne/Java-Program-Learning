@@ -12,8 +12,16 @@ public class ArithematicOperators {
 		System.out.println("Addition is: " + (num1 + num2));
 		System.out.println("Subtraction is: " + (num1 - num2));
 		System.out.println("Multiplication is: " + (num1 * num2));
-		System.out.println("Division is: " + (num1 / num2));
-		System.out.println("Modulo is: " + (num1 % num2));
+		try {
+			System.out.println("Division is: " + (num1 / num2));
+			System.out.println("Modulo is: " + (num1 % num2));
+		}
+
+		catch (Exception e) {
+			System.out.println(e);
+
+		}
+
 	}
 
 	void floatOperation(float num1, float num2) {
@@ -36,7 +44,7 @@ public class ArithematicOperators {
 		System.out.println("Modulo is: " + (num1 % num2));
 	}
 
-	public static void main(String... args) {
+	public static void main(String... args) throws InputMismatchException {
 
 		ArithematicOperators obj = new ArithematicOperators();
 		Scanner scan = new Scanner(System.in);
